@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700&subset=latin-ext');
+@import './common/reset.css';
+
+/* Main Page */
+.main-structure {
+  font-family: 'PT Serif', serif;
+  color: #6c7f96;
+  padding: 0 60px;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 270px;
+}
+
+/* MQ Medium */
+@media only screen and (max-device-width: 800px) {
+  .main-structure {
+    padding: 0 30px;
+  }
+  .main-structure__body {
+    border: 2px solid orange;
+  }
+}
+
+/* MQ Small */
+@media only screen and (max-device-width: 500px) {
+  .main-structure__body {
+    border: 2px solid turquoise;
+  }
+}

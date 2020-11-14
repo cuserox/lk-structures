@@ -1,0 +1,110 @@
+.home__header,
+.home-body__wrapper {
+    padding: 30px 0;
+}
+.home__title {
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.home__title a {
+    text-decoration: none;
+    color: #6c7f96;
+}
+.home__description {
+    font-weight: normal;
+    text-align: justify;
+    flex: 0 1 500px;
+}
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__image-wrapper {
+    height: 200px;
+    width: 200px;
+    flex: 0 0 200px;
+    margin-right: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.header__image-wrapper img {
+    height: 100%;
+    width: 100%;
+}
+.home-body__title {
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.home-body__grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+}
+.home-body__grid a {
+    text-decoration: none;
+    color: #6c7f96;
+}
+.home-tile {
+    border: 1px solid rgba(109, 128, 151, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(109, 128, 151, 0.3);
+}
+.home-tile:hover {
+    animation: pulse 0.25s ease-in-out forwards;
+}
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+
+	100% {
+    transform: scale(1.025);
+	}
+}
+.home-tile__image-wrapper {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 425px;
+    max-height: 285px;
+    overflow: hidden;
+}
+.home-tile__image {
+    height: 100%;
+    width: 100%;
+}
+
+/* MQ Medium */
+@media only screen and (max-device-width: 800px) {
+    .home__header,
+    .home-body__wrapper {
+        padding: 15px 0;
+    }
+    .header__wrapper {
+        display: block;
+    }
+    .header__image-wrapper {
+        margin: 0 auto 20px;
+        height: 150px;
+        width: 150px;
+    }
+    .home-body__grid {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+/* MQ Small */
+@media only screen and (max-device-width: 500px) {
+    .home-body__grid {
+        grid-template-columns: 100%;
+    }
+}
