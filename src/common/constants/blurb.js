@@ -85,11 +85,11 @@ const BODY = {
             name: "Bowery Street",
             link: "/bowery-street"
         },
-        {
-            image: penrhynRd1Thumb,
-            name: "Penrhyn Road",
-            link: "/penrhyn-road"
-        },
+        // {
+        //     image: penrhynRd1Thumb,
+        //     name: "Penrhyn Road",
+        //     link: "/penrhyn-road"
+        // },
         {
             image: bfi1Thumb,
             name: "BFI",
