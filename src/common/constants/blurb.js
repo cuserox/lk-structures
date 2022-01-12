@@ -69,7 +69,7 @@ import glenshawMansions4 from '../images/projects/glenshaw-mansions/glenshaw-man
 
 const HEADER = {
     title: "Luke Katchoff",
-    description: "Mid-senior level structural Engineer with 6 years design experience in small and medium sized consultancies. Varied experience working as principal structural engineer on many high-end residential and commercial developments with experience designing all traditional materials."
+    description: "Mid-senior level structural Engineer with 9 years design experience in small and medium sized consultancies. Varied experience working as principal structural engineer on many high-end residential and commercial developments with experience designing all traditional materials."
 }
 
 const BODY = {
@@ -132,8 +132,8 @@ const PROJECTS = {
             project: "£15,000,000",
             contract: "£180,000"
         },
-        scope: "New 13 storey + Basement and 7 storey + Basement mixed usage towers. Both buildings are constructed in RC and have single storey basements constructed with a perimeter secant piled wall and internal bearing piles. The RC frame consists of flat slabs at each level, some of which act as transfer structures for offset columns. The building is stabilised with RC core walls which were constructed concurrently with each floor slab. The basement was constructed with a bottom up sequence and included challenges involving existing directly adjacent buildings and existing basement masonry retaining walls within the building footprint.",
-        role: "Lead design engineer from concept to completion. I was responsible for the overall design of all structural elements and coordinating the design team, which included one other engineer, a technician and a drainage engineer. "
+        scope: "New 13 storey + Basement and 7 storey + Basement mixed usage towers. Both buildings are constructed in RC and have single storey basements constructed with a perimeter contiguous piled wall and internal bearing piles. The RC frame consists of flat slabs at each level, some of which act as transfer structures for offset columns. The building is stabilised with RC core walls which were constructed concurrently with each floor slab. The basement was constructed with a bottom up sequence and included challenges involving existing directly adjacent buildings and existing basement masonry retaining walls within the building footprint.",
+        role: "Lead design engineer from concept to completion. I was responsible for the overall design of all structural elements and coordinating the design team, which included two other engineers, a technician and a drainage engineer. "
     },
     "/bowery-street": {
         title: "CitizenM Hotel Bowery, New York",
