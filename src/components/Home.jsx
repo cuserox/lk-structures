@@ -49,7 +49,8 @@ const Home = () => {
                                         <img
                                             className="home-tile__image"
                                             src={project.image}
-                                            alt="Project"
+                                            alt={`${project.name} - project overview`}
+                                            loading='lazy'
                                         />
                                     </div>
                                     <div className="home-tile__copy">

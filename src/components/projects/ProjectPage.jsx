@@ -48,11 +48,12 @@ const ProjectPage = () => {
                             return (
                                 <div className="project-page-tile" key={index}>
                                     <div className="project-page__image-wrapper" onClick={onImageClick}>
-                                        <img
+                                        <img    
                                             className="project-page__image"
                                             id={img.id}
                                             src={img.src}
-                                            alt="Project"
+                                            alt={`${title} - project overview`}
+                                            loading='lazy'
                                         />
                                     </div>
                                 </div>
