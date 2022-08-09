@@ -69,7 +69,7 @@ import glenshawMansions4 from '../images/projects/glenshaw-mansions/glenshaw-man
 
 const HEADER = {
     title: "Luke Katchoff",
-    description: "Senior Structural Engineer with 10 years of design experience in medium sized design consultancies. Varied experience working as principal structural engineer on many high-end residential and commercial developments with experience designing all traditional materials."
+    description: "Senior Structural Engineer with 10 years of design experience in medium sized design consultancies. Varied experience working as Principal Structural Engineer on many high-end residential and commercial developments with experience designing all traditional materials."
 }
 
 const BODY = {
@@ -197,7 +197,7 @@ const PROJECTS = {
             contract: "£60,000"
         },
         scope: "4 storey residential building comprising 3 storeys of cold rolled steel framing supported on a 1st floor concrete podium with masonry walls below and founded on an RC raft foundation. Coordination with Network Rail and HS1 with regard to asset protection for below and above ground assets.",
-        role: "Lead design engineer from concept to construction (currently under construction). I am responsible for the design of all structural elements (light-gauge frame to manufacturer’s design) and coordinating drawing production by a technician."
+        role: "Lead design engineer from concept to construction, responsible for the design of all structural elements (light-gauge frame to manufacturer's design) and coordinating drawing production by a technician."
     },
     "/florin-court": {
         title: "Florin Court, London",
