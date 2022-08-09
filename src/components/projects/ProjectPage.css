@@ -70,7 +70,8 @@
     grid-template-rows: auto;
 }
 .project-page-tile {
-    height: 300px;
+    margin-bottom: 24px;
+    max-height: 300px;
     overflow: hidden;
 }
 .project-page__costs {
@@ -96,7 +97,7 @@
     font-size: 26px;
 }
 .project-page__copy-wrapper {
-    max-width: 70%;
+    max-width: 70vw;
     margin: 0 auto;
 }
 .project-page__copy {
@@ -125,7 +126,8 @@
         padding: 10px 0;
     }
     .project-page__grid {
-        grid-template-columns: auto;
+        /* grid-template-columns: auto; */
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
     .project-page__cost-card {
         min-width: unset;
@@ -134,6 +136,9 @@
 
 /* MQ Small */
 @media only screen and (max-device-width: 500px) {
+    .project-page__wrapper {
+        padding: 50px 0;
+    }
     .project-page__return {
         top: 10px;
     }
@@ -149,9 +154,10 @@
         padding: 5px;
     }
     .project-page__cost-text {
-        font-size: 24px;
+        border: 1px solid red;
+        font-size: 18px;
     }
     .project-page__cost-number {
-        font-size: 20px;
+        font-size: 16px;
     }
 }

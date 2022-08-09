@@ -1,16 +1,20 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import React, {memo, useEffect} from 'react';
+import { Link, useLocation } from "react-router-dom";
 
 import './ProjectPage.css';
 import chevron from '../../common/icons/chevron.svg'
 import home from '../../common/icons/home.svg'
 import { PROJECTS, ID_TO_IMG } from '../../common/constants/blurb.js';
+import {scrollToTop} from '../../common/helpers/dom.helpers.js';
 
-const ProjectPage = (props) => {
-    const { pathname } = props.location;
+const ProjectPage = () => {
+    const { pathname } = useLocation();
     const projectData = PROJECTS[pathname];
-
     const { title, subtitle, prices: { project, contract}, scope, role, images } = projectData;
+
+    useEffect(() => {
+        scrollToTop();
+    });
 
     const onImageClick = (e) => {
         if (e) {
@@ -81,4 +85,4 @@ const ProjectPage = (props) => {
     );
 }
 
-export default ProjectPage;
+export default memo(ProjectPage);
