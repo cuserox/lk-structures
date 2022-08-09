@@ -69,7 +69,7 @@ import glenshawMansions4 from '../images/projects/glenshaw-mansions/glenshaw-man
 
 const HEADER = {
     title: "Luke Katchoff",
-    description: "Mid-senior level structural Engineer with 9 years design experience in small and medium sized consultancies. Varied experience working as principal structural engineer on many high-end residential and commercial developments with experience designing all traditional materials."
+    description: "Senior Structural Engineer with 10 years of design experience in medium sized design consultancies. Varied experience working as principal structural engineer on many high-end residential and commercial developments with experience designing all traditional materials."
 }
 
 const BODY = {
@@ -140,11 +140,11 @@ const PROJECTS = {
         subtitle: "New 20 Storey Modular Hotel",
         images: [{ src: bowerySt1Thumb, id: 'bowery-1' }, { src: bowerySt2Thumb, id: 'bowery-2' }, { src: bowerySt3Thumb, id: 'bowery-3' }],
         prices: {
-            project: "£4,000,000",
-            contract: "£70,000"
+            project: "£13,000,000",
+            contract: "£200,000"
         },
-        scope: "Demolition of existing car showroom and construction of 5 storey student accommodation with retail units and single storey basement. Main structure consists of an RC frame with a panelised timber frame above a 1st floor podium all founded on bearing piles and a secant piled wall. Project also includes the refurbishment and a deepening of a basement within an existing semi-detached building adjacent.",
-        role: "Lead design engineer from scheme design through to completion. I was responsible for the design of all structural elements (excluding timber frame to manufacturer’s design) and coordination of the design team which included a technician and drainage engineer."
+        scope: "20 storey hotel with 300 rooms built with a mix of traditional and modular construction and located in a seismic zone. Peter Dann Ltd were responsible for the design of the module structure which is supported on a 4th floor 1200mm thick RC transfer podium (by others) that also acts as a lateral diaphragm to transfer lateral loads to RC shear walls. Each module was constructed in Poland and shipped to New York.",
+        role: "Member of the design team from RIBA Stage 3 to completion. I was responsible for the design of various individual structural elements including: analysis and design of modules for transport & construction (e.g. deflection of cages while being lifted & lifting eye design etc.), design of various module to module and module to core connection details (including under seismic loading), design of various ‘cassette’ modules to be used to infill sections of corridor not included as part of a typical module, design of a transfer truss to be included in the 1st level of modules to mitigate forces within the RC podium below."
     },
     "/penrhyn-road": {
         title: "Penrhyn Road",
