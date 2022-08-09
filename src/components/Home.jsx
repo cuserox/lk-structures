@@ -1,16 +1,21 @@
-import React, { PureComponent, Fragment } from 'react';
+import React, { memo, useEffect } from 'react';
 import { Link } from "react-router-dom";
 
 import './Home.css';
 import profileLK from '../common/images/profile-lk.jpeg';
 import { HEADER, BODY } from '../common/constants/blurb.js';
+import {scrollToTop} from '../common/helpers/dom.helpers.js';
 
-class Home extends PureComponent {
-    render() {
+const Home = () => {
     const { title, description } = HEADER;
     const { subtitle, projects } = BODY;
+
+    useEffect(() => {
+        scrollToTop();
+    });
+
     return (
-        <Fragment>
+        <>
             <header className="home__header">
                 <h1 className="home__title">
                     {title}
@@ -56,9 +61,8 @@ class Home extends PureComponent {
                     })}
                 </div>
             </div>
-        </Fragment>
-    );
-    }
+        </>
+    );    
 };
 
-export default Home;
+export default memo(Home);
