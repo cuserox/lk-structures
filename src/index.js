@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './MainStructure.css';
-import MainStructure from './MainStructure';
+import MainStructure from './MainStructure.jsx';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<MainStructure />, document.getElementById('root'));
